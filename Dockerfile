@@ -11,3 +11,6 @@ RUN apt-get update -y && apt-get install -y screen
 
 # install aws-cli
 RUN pip install --no-cache-dir awscli
+
+# install serverless
+RUN npm i -g serverless serverless-azure-functions
